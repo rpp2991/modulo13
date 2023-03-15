@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo 13: Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<style>
+    .carousel-item img {
+
+        width: 100%;
+        height: 600px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        object-fit: cover;
+
+    }
+
+    body {
+        background-color: rgb(224, 240, 154);
+    }
+
+    body h1 {
+        margin-left: 14px;
+        padding-top: 14px;
+    }
+</style>
+
+
+<body>
+    <h1>Módulo 13: Bootstrap</h1>
+    <div class="container">
+        <div class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="1000" class="carousel-item active">
+                    <img src="https://cdn.pixabay.com/photo/2016/10/17/16/35/concert-1748102_960_720.jpg">
+                </div>
+                <div data-bs-interval="1000" class="carousel-item">
+                    <img src="https://cdn.pixabay.com/photo/2016/08/01/11/28/rock-1560867_960_720.jpg">
+                </div>
+                <div data-bs-interval="1000" class="carousel-item">
+                    <img src="https://cdn.pixabay.com/photo/2015/09/25/23/11/rock-band-958415_960_720.jpg">
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!--Responsivo-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <!-- conteúdo do primeiro card -->
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <!-- conteúdo do segundo card -->
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <!-- conteúdo do terceiro card -->
+            </div>
+            <!-- adicione mais colunas aqui para criar mais cards -->
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="https://www.groover.com.br/lojas/00016379/prod/IBZ-AST73G-BKF1.jpg"
+                            class="card-img-top" alt="Imagem 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Blues</h5>
+                            <p class="card-text">Saiba mais sobre os shows de Blues</p>
+                            <a href="#" class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="https://madeinbrazil.fbitsstatic.net/img/p/guitarra-les-paul-modern-epiphone-graphite-black-gbk-128165/314651.jpg?w=800&h=800&v=no-change&qs=ignore"
+                            class="card-img-top" alt="Imagem 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Rock'n'Roll</h5>
+                            <p class="card-text">Saiba mais sobre os shows de Rock'n'Roll</p>
+                            <a href="#" class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="https://images.tcdn.com.br/img/img_prod/1139574/guitarra_epiphone_flying_v_ebony_16567_3_96e179fff39dfcee444f98e850fa98e8.jpg"
+                            class="card-img-top" alt="Imagem 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Heavy Metal</h5>
+                            <p class="card-text">Saiba mais sobre os shows de Heavy Metal</p>
+                            <a href="#" class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
